@@ -16,5 +16,9 @@ public class UserSevice {
         return userRepository.save(user);
     }
 
+    public List<User> getAll(){
+        return userRepository.findAll();
+    }
+
 
 }
