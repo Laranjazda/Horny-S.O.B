@@ -11,7 +11,7 @@ public class ListingsAndReviewsController {
     ListingsAndReviewsService listingsAndReviewsService;
 
     @GetMapping
-    public Object getReviews(String _id){
+    public Object getReviews(@RequestParam String _id){
         return listingsAndReviewsService.getById(_id);
     }
 
