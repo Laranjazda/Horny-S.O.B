@@ -4,9 +4,9 @@ import org.bson.json.JsonObject;
 import org.springframework.data.annotation.Id;
 
 public class User {
-    private int id;
-    private String name;
-    private String list;
+    public int id;
+    public String name;
+    public String list;
 
     public User() {
     }
